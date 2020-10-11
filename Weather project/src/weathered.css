@@ -1,0 +1,78 @@
+body .background {
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1598795441115-e4a55d9122b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 17px 18px 16px 9px rgba(0, 0, 0, 0.75);
+}
+
+#search-form {
+  color: black;
+  font-size: 20px;
+  font: #000;
+}
+body .container {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 950px;
+  color: white;
+}
+
+.current-city-time {
+  font-size: 59px;
+  font-weight: 700;
+}
+form {
+  align-items: center;
+  display: inline;
+}
+
+.current-date {
+  font-weight: 100;
+  font-size: 32px;
+}
+
+.current-weather {
+  border-radius: 16px;
+  /* background-color: white; */
+  /* opacity: 0; */
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.forecast {
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 25px;
+  font-weight: 200;
+  align-items: center;
+}
+#hourly {
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 7px;
+}
+
+.current-details {
+  margin: 0px auto;
+  font-size: 23px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+.current-weather {
+  margin: 0px auto;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+.middle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#top {
+  text-shadow: 3px 5px 2px #474747;
+}

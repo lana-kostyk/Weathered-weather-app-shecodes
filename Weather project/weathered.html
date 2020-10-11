@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1fa3d4a7d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weathered</title>
+    
+    <link rel="stylesheet" href="src/weathered.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="background">
+      <div class="row align-items-center" id="top">
+        <div class=col>
+            <h2 class="current-city-time"> <span id="current-city">Krakow</span> <span id="current-time">22:18</span></h2>
+            <h3 class="current-date" id="current-info">Sunday 6 September 2020</h3></div>
+        <div class="col" id="search">
+        <form id="search-form">
+          <input 
+          class="input" 
+          type="text" 
+          placeholder="Search for a city" 
+          autocomplete="off"
+          autofocus="on" 
+          id="search-city-input"/>
+          <input 
+          type="submit"
+          value="Search" />
+        </form>
+          
+        
+        </div>
+      </div>
+
+      
+      <div class="row middle">
+            <div class="col-6">
+             <div class="current-weather">
+        <h1>
+            <span id="temperature-now">15</span>°<span id="celsius-link">C</span><span id="dash">|</span><span id="fahrenheit-link">F</span>
+            <br />
+            <i class="fas fa-cloud-moon-rain"></i>
+            </div> 
+          </div>
+          <div class="col-6">
+            <div class="current-details">
+                <div class="row">
+                  <div class="col">humidity</div>
+                  <div class="col">90%</div>
+                </div>
+                <div class="row">
+                  <div class="col">wind</div>
+                  <div class="col">NNE 2km/hr</div>
+                </div>
+                <div class="row">
+                  <div class="col">uv index</div>
+                  <div class="col">0</div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row forecast" id="forecast">
+              <div class="col" id="hourly">
+                <div>00:00</div>
+                <div><i class="fas fa-cloud-moon-rain"></i></div>
+                <div><span>14°</span></div>
+              </div>
+              <div class="col" id="hourly">
+                <div>00:00</div>
+                <div><i class="fas fa-cloud-moon-rain"></i></div>
+                <div><span>14°</span></div>
+              </div>
+              <div class="col" id="hourly">
+                <div>00:00</div>
+                <div><i class="fas fa-cloud-moon-rain"></i></div>
+                <div><span>14°</span></div>
+              </div>
+              <div class="col" id="hourly">
+                <div>00:00</div>
+                <div><i class="fas fa-cloud-moon-rain"></i></div>
+                <div><span>14°</span></div>
+              </div>
+              <div class="col" id="hourly">
+                <div>00:00</div>
+                <div><i class="fas fa-cloud-moon-rain"></i></div>
+                <div><span>14°</span></div>
+              </div>
+              <div class="col" id="hourly">
+                <div>00:00</div>
+                <div><i class="fas fa-cloud-moon-rain"></i></div>
+                <div><span>14°</span></div>
+              </div> 
+          </div>
+            
+
+        </div>
+      </div>
+   <script src="src/index.js">
+  </script> 
+  </body>
+</html>
