@@ -99,3 +99,13 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
+
+//display current weather icon
+function displayIcon(event) {
+  event.currentCitypreventDefault();
+  let iconElement = document.querySelector.innerHTML("#icon");
+  iconElement.setAttribute("src",`http://openweathermap.org/img/wn/04d@2x.png`); 
+}
+
+displayIcon();
+
