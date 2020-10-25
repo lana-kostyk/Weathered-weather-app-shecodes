@@ -81,11 +81,11 @@ form {
   text-shadow: 3px 5px 2px #474747;
 }
 
-.weather-temperature .active {
-  color: rgb(33, 33, 33);
+.current-weather .active {
+  color: #fff;
   cursor: default;
 }
 
-.weather-temperature .active:hover {
+.current-weather .active:hover {
   text-decoration: none;
 }
