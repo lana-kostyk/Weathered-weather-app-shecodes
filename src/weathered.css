@@ -57,6 +57,7 @@ form {
 .current-details {
   margin: 0px auto;
   font-size: 23px;
+  font-weight: 400;
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 5px;
@@ -64,10 +65,13 @@ form {
 
 .current-weather {
   margin: 0px auto;
+  font-size: 23px;
+  font-weight: 400;
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 5px;
 }
+
 .middle {
   margin-top: 30px;
   margin-bottom: 30px;
