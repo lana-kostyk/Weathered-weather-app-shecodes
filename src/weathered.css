@@ -34,13 +34,6 @@ form {
   font-size: 32px;
 }
 
-.current-weather {
-  border-radius: 16px;
-  /* background-color: white; */
-  /* opacity: 0; */
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 .forecast {
   margin-right: 0;
   margin-left: 0;
@@ -54,29 +47,6 @@ form {
   margin: 0 7px;
 }
 
-.current-details {
-  margin: 0px auto;
-  font-size: 23px;
-  font-weight: 400;
-  border-radius: 16px;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 5px;
-}
-
-.current-weather {
-  margin: 0px auto;
-  font-size: 23px;
-  font-weight: 400;
-  border-radius: 16px;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 5px;
-}
-
-.middle {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 #top {
   text-shadow: 3px 5px 2px #474747;
 }
@@ -88,4 +58,36 @@ form {
 
 .current-weather .active:hover {
   text-decoration: none;
+}
+
+#reference {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+
+#this-day {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px auto;
+  font-size: 23px;
+  font-weight: 400;
+  border-radius: 16px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+#temperature-now {
+  font-size: 50px;
+}
+
+#icon {
+  font-size: 60px;
+}
+#description {
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  text-transform: capitalize;
 }
