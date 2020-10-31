@@ -104,9 +104,9 @@ function dispalyForecast(response) {
     forecast = response.data.list[index];
     forecastElement.innerHTML += `
     <div class="col-2">
-      <h3>
+      <div>
         ${formatHours(forecast.dt * 1000)}
-      </h3>
+      </div>
       <img
         src="http://openweathermap.org/img/wn/${
           forecast.weather[0].icon
