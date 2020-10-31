@@ -1,3 +1,6 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 body .background {
   background-size: cover;
   background-image: url(https://images.unsplash.com/photo-1598795441115-e4a55d9122b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
@@ -6,6 +9,7 @@ body .background {
   padding: 20px;
   border-radius: 16px;
   box-shadow: 17px 18px 16px 9px rgba(0, 0, 0, 0.75);
+  font-family: Tahoma;
 }
 
 #search-form {
@@ -64,6 +68,7 @@ form {
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
+  font-size: 20px;
 }
 
 #this-day {
@@ -85,7 +90,6 @@ form {
   font-size: 60px;
 }
 #description {
-  margin-left: 50px;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
