@@ -12,10 +12,10 @@ function now() {
     minutes = `0${minutes}`;
   }
   let time = `${hour}:${minutes}`;
-  setInterval(now, 1000);
+  
   currentTime.innerHTML = time;
 }
-now();
+setInterval(now, 1000);
 
 
 function date() {
