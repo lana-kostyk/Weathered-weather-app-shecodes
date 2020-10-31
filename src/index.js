@@ -1,22 +1,22 @@
-let today = new Date();
-
 function now() {
+  let time = new Date();
   let currentTime = document.querySelector("#current-time");
 
-  let hour = today.getHours();
-  let minutes = today.getMinutes();
+  let hour = time.getHours();
+  let minutes = time.getMinutes();
   if (hour < 10) {
     hour = `0${hour}`;
   }
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  let time = `${hour}:${minutes}`;
+  let timeReturn = `${hour}:${minutes}`;
   
-  currentTime.innerHTML = time;
+  currentTime.innerHTML = timeReturn;
 }
-setInterval(now, 1000);
+setInterval(now,1000);
 
+let today = new Date();
 
 function date() {
      let days = [
@@ -170,5 +170,6 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
 
 searchCity("Kyiv");
+
 
 
