@@ -107,7 +107,7 @@ function dispalyForecast(response) {
       <div>
         ${formatHours(forecast.dt * 1000)}
       </div>
-      <div><img class="embed-responsive-item"
+      <div><img class="mw-60"
         src="http://openweathermap.org/img/wn/${
           forecast.weather[0].icon
         }@2x.png"/></div>
