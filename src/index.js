@@ -12,9 +12,11 @@ function now() {
     minutes = `0${minutes}`;
   }
   let time = `${hour}:${minutes}`;
+  setInterval(now, 1000);
   currentTime.innerHTML = time;
 }
-setInterval(now, 1000);
+now();
+
 
 function date() {
      let days = [
@@ -168,6 +170,6 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
 
-
+searchCity("Kyiv");
 
 
